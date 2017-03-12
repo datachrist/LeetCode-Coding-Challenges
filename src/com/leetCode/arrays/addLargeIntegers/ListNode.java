@@ -9,6 +9,11 @@ package com.leetCode.arrays.addLargeIntegers;
       ListNode(int x) { val = x; }
   
  
+    /** This method is used to calculate addition for two large Non Negative Integers using Linked List
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int currentDigit = 0;
         int bufferDigit = 0;
